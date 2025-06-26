@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <h1>HOME PAGE</h1>
+        <link rel="stylesheet" href="style.css">  <!--linking css file and html file-->
+        <script src="script.js"></script>
+    </head>
+    <body class = "Home-page">
+        
+        <!--<button>TEMPERATURE</button> <button>HUMIDIDTY</button> <button>UV INDEX</button> <button>WIND SPEED</button>-->
+        <ul>                                             <!-- nav bar-->
+            <li><a href="CS230Lab2.html">Home</a></li>
+            <li><a href="TemperaturePage.html">Temperature</a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="UvIndex.html">UvIndex</a></li>
+            <li><a href="WindSpeed.html">Wind Speed</a></li>
+          </ul>
+          <p> </p>
+          <p> </p>
+          <p> </p>
+          <form action="/action_page.php">
+            <label for="cityInput">Enter City Name:</label>   <!--city name button-->
+            <input type="text" id="cityInput" name="cityInput"><br><br>   <!--city name button-->
+           
+           <!--<input type="submit" value="Submit">-->
+          </form>
+          <button onclick="getWeather()">Submit</button>
+         
+         
+    </body>
+    
+</html>

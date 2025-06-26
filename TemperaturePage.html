@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature page</title>
+        <link rel="stylesheet" href="style.css">  <!--linking css file and html file-->
+        <script src="script.js"></script>
+        <p id = "TemperaturePage"></p>
+    </head>
+    <body class = "Temp-Page">
+        <h1>Temperature Page</h1>
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="TemperaturePage.html">Temperature</a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="UvIndex.html">UvIndex</a></li>
+            <li><a href="WindSpeed.html">Wind Speed</a></li>
+          </ul>
+         
+       
+     <button id = "degreesButton">Farenheit</button>
+     <button id = "celciusButton">Celcius</button> 🌡️
+     <script>
+        const storedTemp = localStorage.getItem("newYorkTemp");
+        console.log("Stored newYorkTemp:", storedTemp);
+     </script>
+     
+    </body>
+</html>
